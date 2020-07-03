@@ -1,0 +1,143 @@
+body {
+  background-color: white;
+  margin: 0;
+  font-family: 'Merriweather', sans-serif;
+}
+
+div {
+  margin: 0;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Fugaz One', serif;
+    font-size: 5rem;
+    line-height: 2;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', serif;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', serif;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+.middle-container {
+  padding: 20px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 40px 0 20px 0;
+  text-align: center;
+  color: #EAF6F6;
+}
+
+.profile {
+  margin: 0 20% 0 20%;
+  line-height: 2;
+}
+
+.contact-me {
+  line-height: 2;
+}
+
+.footer-link {
+  display: inline-block;
+  color: #11999E;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px 0 15px;
+}
+
+.footer-embedded-link {
+  color: #EAF6F6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-image-left {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+.skill-image-right {
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+
+.langList {
+  list-style: none;
+  font-weight: bold;
+}
+
+.cityscape {
+  display: block;
+  width: 100%;
+  -webkit-mask-image: -webkit-gradient(linear, left 58%, left 28%, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+.topText {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin-left: -200px;
+}
+
+.spacedText {
+  display: inline;
+  margin-left: 70px;
+}
+
+.btn {
+  background: #11999E;
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 1px;
+  text-decoration: none;
+  display: block;
+  width: 300px;
+  margin: 20px auto 20px auto;
+}
+
+.btn:hover {
+  background: #6bc6ff;
+  text-decoration: none;
+}
+
+#imageOfMe {
+  border-radius: 30%;
+  height: 280px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
