@@ -193,9 +193,10 @@ h3 {
 /* Portfolio*/
 
 .carousel-image {
-  max-width: 470px;
-  max-height: 490px;
+  max-width: 100%;
+  height: auto;
   margin: 10%;
+  object-fit: contain;
 }
 
 .dark-prev-icon {
