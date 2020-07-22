@@ -184,7 +184,6 @@ h3 {
 .lang-list {
   font-family: 'Montserrat';
   font-weight: bolder;
-  font-size: 1.2rem;
   list-style: none;
 }
 
@@ -195,7 +194,6 @@ h3 {
 .carousel-image {
   max-width: 100%;
   height: auto;
-  margin: 10%;
   object-fit: contain;
 }
 
@@ -208,7 +206,7 @@ h3 {
 }
 
 .portfolio-block {
-  padding: 20px 0;
+  padding: 30px 0;
   margin: 20px 10px;
 }
 
@@ -242,8 +240,20 @@ h3 {
 /* Mobile & Tablet Compatability - CSS Breakpoint */
 
   @media (max-width: 1250px) {
+    body {
+      font-size: 1.3rem;
+    }
+
     h1 {
       font-size: 3rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+    }
+
+    h3 {
+      font-size: 1.3rem;
     }
 
     .title-subheading {
@@ -256,8 +266,20 @@ h3 {
     }
 
     @media (max-width: 700px) {
+      body {
+        font-size: 1.5rem;
+      }
+
       h1 {
         font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      h3 {
+        font-size: 1.5rem;
       }
 
       .title-subheading {
