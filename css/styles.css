@@ -241,7 +241,7 @@ h3 {
 
   @media (max-width: 1250px) {
     body {
-      font-size: 1.3rem;
+      font-size: 1rem;
     }
 
     h1 {
@@ -256,8 +256,17 @@ h3 {
       font-size: 1.3rem;
     }
 
+    .profile {
+      margin: 0 3%;
+    }
+
     .title-subheading {
       font-size: 1.5rem;
+      margin-top: 20px;
+    }
+
+    .skill-image {
+      width: 150px;
     }
 
     #top-text-row {
@@ -267,7 +276,7 @@ h3 {
 
     @media (max-width: 700px) {
       body {
-        font-size: 1.5rem;
+        font-size: 0.7rem;
       }
 
       h1 {
@@ -284,9 +293,11 @@ h3 {
 
       .title-subheading {
         font-size: 1rem;
+        margin-top: 15px;
       }
 
       #top-text-row {
         top: 4%;
       }
+
       }
