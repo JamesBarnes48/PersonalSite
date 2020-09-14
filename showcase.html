@@ -111,7 +111,7 @@
     </div>
     <div class="container-fluid coloured-section">
 
-      <div class="row">
+      <div class="row small-margin-bottom">
         <div class="col-lg-1"></div>
         <div class="col-lg-5 col-md-12 portfolio-block">
           <div id="study-carousel" class="carousel slide">
@@ -429,6 +429,46 @@
         </div>
         <div class="col-lg-1 col-md-1 col-sm-1"></div>
       </div>
+    </div>
+
+    <div class="container-fluid coloured-section">
+      <div class="row small-margin-bottom">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5 col-md-12 portfolio-block">
+          <div id="newsletter-carousel" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active container-fluid">
+                <img class="carousel-image" src="images/news1.png" alt="Enter Details">
+              </div>
+              <div class="carousel-item container-fluid">
+                <img class="carousel-image" src="images/news2.png" alt="Registered!">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#newsletter-carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon dark-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#newsletter-carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon dark-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12 portfolio-block">
+          <h3 class="subheading">Newsletter Sign-Up</h3>
+          <p>Up until this point I had been making static web pages, but this was my first step into developing a dynamic web app, meaning the website is
+          hosted on a server instead of on the clients web browser, meaning the whole project is structured a lot differently to a static web site,
+          it uses Node.js and Express to create a file to handle requests to my server (which I am hosting for free on Heroku). Dynamic web apps like this can handle a lot more complex tasks than
+          any static webpage, and if you were developing a website for your company this is likely how you would do it!</p>
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+      </div>
+      <p>This is a simple site on the surface, but most of this site's utility is behind the scenes. The user enters their name and email address
+      to sign themselves up for a newsletter. When the user submits their info it uses the Mailchimp API to sign them up to my personal mailing list.
+      After a user has signed up successfully I will be able to see everyone who has signed up from my Mailchimp account.</p>
+      <p>While I don't have anything to send out at the moment, it's not difficult to see how this simple concept could be very useful from an advertising
+      perspective!</p>
+      <p>Go sign yourself up over <a href="https://immense-badlands-47381.herokuapp.com">here!</a></p>
     </div>
 
   </section>

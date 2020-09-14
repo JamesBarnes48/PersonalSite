@@ -218,6 +218,10 @@ h3 {
   border-radius: 5px;
 }
 
+.small-margin-bottom {
+  margin-bottom: 25px;
+}
+
 /* Footer */
 
 .footer-link {
