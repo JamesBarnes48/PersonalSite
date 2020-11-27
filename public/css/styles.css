@@ -1,0 +1,300 @@
+body {
+  background-color: white;
+  margin: 0;
+  font-family: 'Merriweather', sans-serif;
+  text-align: center;
+  line-height: 2;
+}
+
+div {
+  margin: 0;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Fugaz One', serif;
+    font-size: 5rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', serif;
+  font-size: 1.5rem;
+}
+
+/* Containers */
+
+.top-container {
+  background-color: #e4f9f5;
+  padding: 20px 0 0 0;
+}
+
+.middle-container {
+  padding: 20px;
+  padding-top: 30px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 20px 0 20px 0;
+  color: #EAF6F6;
+}
+
+/* Section Styles */
+
+.white-section {
+  background-color: #fff;
+  padding: 40px 35px;
+}
+
+.coloured-section {
+  background-color: #e4f9f5;
+  color: #11999E;
+  padding: 40px 35px;
+}
+
+/* Buttons */
+
+.basic-button {
+  display: block;
+  margin: 2% auto;
+}
+
+/* Overriding btn-primary to the teal colour scheme */
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #66BFBF !important;
+    border-color: #e4f9f5 !important;
+}
+
+/* Headings */
+
+.section-heading {
+  color: #66BFBF;
+  font-family: 'Montserrat', serif;
+  font-size: 2rem;
+  margin: 35px 0;
+  font-weight: bold;
+}
+
+.subheading {
+  color: #66BFBF;
+  font-family: 'Montserrat', serif;
+  font-size: 1.8rem;
+  margin: 20px 0;
+  font-weight: bolder;
+}
+
+.title-subheading {
+  color: #66BFBF;
+  font-family: 'Montserrat', serif;
+  font-size: 2rem;
+  margin-top: 40px;
+}
+
+/* Navigation Bars */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#contents-brand {
+  color: #66BFBF;
+}
+
+.contents-navbar {
+  margin: 0 100px;
+  margin-top: 40px;
+}
+
+/* Intro */
+
+.cityscape {
+  display: block;
+  width: 100%;
+  -webkit-mask-image: -webkit-gradient(linear, left 58%, left 28%, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  position: relative;
+  z-index: 1;
+}
+
+#top-text-row {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10%;
+  z-index: 2;
+}
+
+#imageOfMe {
+  border-radius: 30%;
+  height: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Profile */
+
+.profile {
+  margin: 0 20% 0 20%;
+}
+
+/* Skills */
+
+.skills {
+  padding: 30px 0;
+}
+
+.skill-row-text-left {
+  margin: 40px 0;
+  text-align: left;
+}
+
+.skill-row-text-right {
+  margin: 40px 0;
+  text-align: right;
+}
+
+.skill-image {
+  width: 200px;
+}
+
+.languages-heading {
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #11999E;
+  text-decoration: none;
+}
+
+.lang-list {
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  list-style: none;
+}
+
+/* Contact Me */
+
+/* Portfolio*/
+
+.carousel-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.carousel {
+  margin-top: 30px;
+}
+
+.dark-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.dark-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.portfolio-block {
+  margin: 10px 10px;
+}
+
+.round-border {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.small-margin-bottom {
+  margin-bottom: 25px;
+}
+
+/* Footer */
+
+.footer-link {
+  color: #11999E;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0 15px 0 15px;
+}
+
+.footer-embedded-link {
+  color: #EAF6F6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.spacedText {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Mobile & Tablet Compatability - CSS Breakpoint */
+
+  @media (max-width: 1250px) {
+    body {
+      font-size: 1.3rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+    }
+
+    h3 {
+      font-size: 1.3rem;
+    }
+
+    .title-subheading {
+      font-size: 1.5rem;
+    }
+
+    #top-text-row {
+      top: 7%;
+    }
+    }
+
+    @media (max-width: 700px) {
+      body {
+        font-size: 1.5rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+      }
+
+      .title-subheading {
+        font-size: 1rem;
+      }
+
+      #top-text-row {
+        top: 4%;
+      }
+      }

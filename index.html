@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>James Barnes</title>
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Merriweather&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+  <!-- CSS and Bootstrap stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/62fb0560de.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div class="top-container">
+    <div id="top-text-row" class="row">
+      <div class="col-lg-3 col-md-0">
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <div>
+          <h1>I'm James.</h1>
+          <h2 class="title-subheading">a programmer</h2>
+        </div>
+      </div>
+    </div>
+    <img class="cityscape" src="images/cityscape.png" alt="">
+  </div>
+
+  <div class="middle-container">
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navtogglecontent" aria-controls="navtogglecontent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navtogglecontent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <form action="/" method="post" id="home-form">
+              <a class="nav-link" id="home-link">Home</a>
+            </form> </li>
+          <li class="nav-item">
+            <form action="/showcase" method="post" id="showcase-form">
+            <a class="nav-link" id="showcase-link">Project Showcase</a>
+          </form> </li>
+        </ul>
+      </div>
+
+    </nav>
+
+    <div class="profile">
+      <img id="imageOfMe" src="images/me.jpg" alt="Photo of Me">
+      <h2 class="section-heading">Hello!</h2>
+      <p>I'm an aspiring programmer and web developer doing my BSc in Computing Science at University of East Anglia in Norwich. Currently based near Great Yarmouth, I love all kinds of film, TV and games (of course I do, I am a student after all) as
+        well as travelling to different places any chance I get.</p>
+      <p>From Python to C, from SQL to ARM assembly code, I have had some experience working with plenty of different languages. That being said, I have most experience in:</p>
+
+      <!-- ACCORDION -->
+      <div class="accordion" id="languages-accordion">
+        <div class="card">
+          <div class="card-header" id="java-heading">
+            <h5 class="mb-0">
+              <button class="btn btn-link languages-heading" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Java
+              </button>
+            </h5>
+          </div>
+          <div id="collapseOne" class="collapse show" aria-labelledby="java-heading" data-parent="#languages-accordion">
+            <div class="card-body">
+              <p>As my primary language I have spent the most time with Java. Throughout my degree Java has been the language I use most often by far and I have created lots of different projects in it.
+                The object oriented nature of the language resonates with me and I am capable of creating large projects in it with a hierarchy of classes.
+              </p>
+              <p>Some of projects I have made in Java include:</p>
+              <ul class="lang-list">
+                <li>"Cheat" card game</li>
+                <li>Word auto-completion algorithm</li>
+                <li>Toll road system</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="cplusplus-heading">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed languages-heading" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                C++
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="cplusplus-heading" data-parent="#languages-accordion">
+            <div class="card-body">
+              <p>I am relatively new to C++, only starting learning it in late 2019, but after a few projects using it I am seeing the merits of it already. It is very similar to C# which I had experience
+                using early on during my A-levels. I enjoyed using some of the features in standard, low-level C++ that you don't see many other places, but on the other end of the spectrum I have also used the OpenGL API
+                which was insightful too. I am still a relatively new C++ programmer but my proficiency in it will only grow with time.</p>
+                <p>Some C++ projects I have worked on include:</p>
+                <ul class="lang-list">
+                  <li>Offline movie database</li>
+                  <li>2D arcade game</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="html-heading">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed languages-heading" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                HTML & CSS
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="html-heading" data-parent="#languages-accordion">
+            <div class="card-body">
+              <p>First touching on web development in the first year of my degree, I gained a basic understanding of HTML, CSS and Javascript then to create a website for renting a fictional house.
+                Since then I have returned to web development in the summer of 2020 to expand my knowledge of it and create websites as a passion project. In this time I have delved deeper
+                into web development expanding my knowledge of HTML/CSS/JS, using the Bootstrap library, jQuery, EJS and more.
+              </p>
+              <p>Some websites I have created include:</p>
+              <ul class="lang-list">
+                <li>Personal site (You're looking at it right now!)</li>
+                <li>tindog</li>
+                <li>Alchemy Lab</li>
+                <li>Simon Game</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="skills">
+      <h2 class="section-heading">My Skills</h2>
+      <div class="row skill-row-text-left">
+        <div class="col-lg-2 col-md-1"></div>
+        <div class="col-lg-4 col-md-5 col-sm-6">
+          <img class="skill-image" src="images/code.png" alt="">
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-6">
+          <h3>Coding</h3>
+          <p>I first learned to code in secondary school because I loved video games. Since then I have used many different languages and experienced a wealth of different aspects of computing in my time as a student. I keep an open mind and am always
+            interested to learn new things.</p>
+        </div>
+        <div class="col-lg-2 col-md-1"></div>
+      </div>
+      <div class="row skill-row-text-right">
+        <div class="col-lg-2 col-md-1"></div>
+        <div class="col-lg-4 col-md-5 col-sm-6">
+          <h3>Cooking</h3>
+          <p>I also enjoy cooking whatever different things I can come up with or that I see online, there's no better incentive than being able to eat what you've made afterwards!</p>
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-6">
+          <img class="skill-image" src="images/oven.png" alt="">
+        </div>
+        <div class="col-lg-2 col-md-1"></div>
+      </div>
+      <div class="row skill-row-text-left">
+        <div class="col-lg-2 col-md-1"></div>
+        <div class="col-lg-4 col-md-5 col-sm-6">
+          <img class="skill-image" src="images/tv.png" alt="">
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-6">
+          <h3>Film and Games</h3>
+          <p>My favourite thing to do though is playing games and watching TV and films. If it's on a screen I am probably going to like it!</p>
+        </div>
+        <div class="col-lg-2 col-md-1"></div>
+      </div>
+      </div>
+
+    <hr>
+
+    <div class="contact-me">
+      <h2 class="section-heading">Get In Touch</h2>
+      <h3>Want to talk to me about something?</h3>
+      <p>What's your name? What's the meaning of life? Who shot first? I want to know!</p>
+      <button type="button" class="btn btn-lg btn-primary basic-button">Contact Me</button>
+      <p class="spacedText">or email me at:</p>
+      <p class="spacedText"><em>jamesbarnes20082000@gmail.com</em></p>
+    </div>
+
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/james-barnes-6406821b1/"><i class="fab fa-linkedin"></i></a>
+    <a class="footer-link" href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+    <a class="footer-link" href="index.html"><i class="fas fa-globe"></i></a>
+    <a class="footer-link" href="https://github.com/JamesBarnes48"><i class="fab fa-github"></i></a>
+    <p>Icon made by <a class="footer-embedded-link" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a class="footer-embedded-link" href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
+    <p>© 2020 James Barnes</p>
+  </div>
+
+  <!--Local Javascript Files-->
+  <script src="scripts/script.js" charset="utf-8"></script>
+</body>
+
+</html>
