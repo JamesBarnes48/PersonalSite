@@ -40,6 +40,12 @@ h3 {
   color: #EAF6F6;
 }
 
+.misc-container {
+  background-color: rgba(0,0,0,.03);
+  padding: 20px 0 20px 0;
+  margin: 20px 0 20px 0;
+}
+
 /* Section Styles */
 
 .white-section {
@@ -89,6 +95,19 @@ h3 {
   font-family: 'Montserrat', serif;
   font-size: 2rem;
   margin-top: 40px;
+}
+
+.highlightText {
+  text-decoration: underline;
+  font-size: 1.2rem;
+  margin: 0 0;
+}
+
+.highlightLink {
+  color: #66BFBF !important;
+  text-decoration: underline !important;
+  font-weight: bold;
+  font-size: 1.8rem !important;
 }
 
 /* Navigation Bars */
