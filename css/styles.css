@@ -33,8 +33,10 @@ h3 {
 /* Containers */
 
 .top-container {
+  position: relative;
+  color: var(--main-hex);
   background-color: var(--off-background-hex);
-  padding: 20px 0 0 0;
+  max-height: 500px;
 }
 
 .middle-container {
@@ -139,12 +141,31 @@ h3 {
   z-index: 1;
 }
 
-#top-text-row {
-  text-align: center;
+.waterscape {
+  display: block;
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+}
+
+
+#nameTitle {
+  font-size: 50px;
+  font-weight: bold;
   position: absolute;
   left: 0;
   right: 0;
-  top: 10%;
+  top: 7%;
+  z-index: 2;
+}
+
+#professionTitle{
+  font-size: 27px;
+  font-weight: bolder;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 17%;
   z-index: 2;
 }
 
@@ -275,8 +296,14 @@ h3 {
       font-size: 1.5rem;
     }
 
-    #top-text-row {
-      top: 7%;
+    #nameTitle{
+      top: 5%;
+      font-size: 40px;
+    }
+
+    #professionTitle{
+      top: 14%;
+      font-size: 22px;
     }
     }
 
@@ -301,7 +328,13 @@ h3 {
         font-size: 1rem;
       }
 
-      #top-text-row {
-        top: 4%;
+      #nameTitle{
+        top: 3%;
+        font-size: 35px;
+      }
+  
+      #professionTitle{
+        top: 10%;
+        font-size: 20px;
       }
       }
