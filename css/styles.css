@@ -1,5 +1,12 @@
+:root {
+  --main-hex: #Fd920b;
+  --off-main-hex: #Fab256;
+  --background-hex: #D9d9d9;
+  --off-background-hex: #777777;
+}
+
 body {
-  background-color: white;
+  background-color: var(--background-hex);
   margin: 0;
   font-family: 'Merriweather', sans-serif;
   text-align: center;
@@ -11,22 +18,25 @@ div {
 }
 
 h1 {
-    color: #66BFBF;
+    color: var(--main-hex);
     font-family: 'Fugaz One', serif;
     font-size: 5rem;
 }
 
 h3 {
-  color: #11999E;
+  color: var(--off-main-hex);
   font-family: 'Montserrat', serif;
   font-size: 1.5rem;
+  font-weight: 600;
 }
 
 /* Containers */
 
 .top-container {
-  background-color: #e4f9f5;
-  padding: 20px 0 0 0;
+  position: relative;
+  color: var(--main-hex);
+  background-color: var(--off-background-hex);
+  max-height: 500px;
 }
 
 .middle-container {
@@ -35,7 +45,7 @@ h3 {
 }
 
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: var(--off-background-hex);
   padding: 20px 0 20px 0;
   color: #EAF6F6;
 }
@@ -43,13 +53,13 @@ h3 {
 /* Section Styles */
 
 .white-section {
-  background-color: #fff;
+  background-color: var(--off-background-hex);
+  color: white;
   padding: 40px 35px;
 }
 
 .coloured-section {
-  background-color: #e4f9f5;
-  color: #11999E;
+  background-color: var(--background-hex);
   padding: 40px 35px;
 }
 
@@ -62,14 +72,14 @@ h3 {
 
 /* Overriding btn-primary to the teal colour scheme */
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #66BFBF !important;
-    border-color: #e4f9f5 !important;
+    background-color: var(--main-hex) !important;
+    border-color: black !important;
 }
 
 /* Headings */
 
 .section-heading {
-  color: #66BFBF;
+  color: var(--main-hex);
   font-family: 'Montserrat', serif;
   font-size: 2rem;
   margin: 35px 0;
@@ -77,7 +87,7 @@ h3 {
 }
 
 .subheading {
-  color: #66BFBF;
+  color: var(--off-main-hex);
   font-family: 'Montserrat', serif;
   font-size: 1.8rem;
   margin: 20px 0;
@@ -85,7 +95,7 @@ h3 {
 }
 
 .title-subheading {
-  color: #66BFBF;
+  color: var(--off-main-hex);
   font-family: 'Montserrat', serif;
   font-size: 2rem;
   margin-top: 40px;
@@ -113,7 +123,7 @@ h3 {
 }
 
 #contents-brand {
-  color: #66BFBF;
+  color: var(--off-main-hex);
 }
 
 .contents-navbar {
@@ -131,12 +141,31 @@ h3 {
   z-index: 1;
 }
 
-#top-text-row {
-  text-align: center;
+.waterscape {
+  display: block;
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+}
+
+
+#nameTitle {
+  font-size: 50px;
+  font-weight: bold;
   position: absolute;
   left: 0;
   right: 0;
-  top: 10%;
+  top: 7%;
+  z-index: 2;
+}
+
+#professionTitle{
+  font-size: 27px;
+  font-weight: bolder;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 17%;
   z-index: 2;
 }
 
@@ -170,14 +199,15 @@ h3 {
 }
 
 .skill-image {
-  width: 200px;
+  max-width: 80%;
+  max-height: 90%;
 }
 
 .languages-heading {
   font-family: 'Montserrat';
   font-size: 1.5rem;
   font-weight: bold;
-  color: #11999E;
+  color: var(--main-hex);
   text-decoration: none;
 }
 
@@ -225,7 +255,7 @@ h3 {
 /* Footer */
 
 .footer-link {
-  color: #11999E;
+  color: var(--off-main-hex);
   text-decoration: none;
   font-weight: bold;
   font-size: 2rem;
@@ -248,7 +278,7 @@ h3 {
 
   @media (max-width: 1250px) {
     body {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
     }
 
     h1 {
@@ -267,14 +297,20 @@ h3 {
       font-size: 1.5rem;
     }
 
-    #top-text-row {
-      top: 7%;
+    #nameTitle{
+      top: 5%;
+      font-size: 40px;
+    }
+
+    #professionTitle{
+      top: 14%;
+      font-size: 22px;
     }
     }
 
     @media (max-width: 700px) {
       body {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
       }
 
       h1 {
@@ -293,7 +329,13 @@ h3 {
         font-size: 1rem;
       }
 
-      #top-text-row {
-        top: 4%;
+      #nameTitle{
+        top: 3%;
+        font-size: 35px;
+      }
+  
+      #professionTitle{
+        top: 10%;
+        font-size: 20px;
       }
       }
