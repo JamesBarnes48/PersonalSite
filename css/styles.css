@@ -52,14 +52,15 @@ h3 {
 
 /* Section Styles */
 
-.white-section {
+.project-section {
   background-color: var(--off-background-hex);
   color: white;
   padding: 40px 35px;
 }
 
-.coloured-section {
+.project-section:nth-child(odd){
   background-color: var(--background-hex);
+  color: black;
   padding: 40px 35px;
 }
 
