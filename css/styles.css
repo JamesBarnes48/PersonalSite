@@ -222,6 +222,12 @@ h3 {
 
 /* Portfolio*/
 
+.new-annotation{
+  color: crimson;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
 .carousel-image {
   max-width: 100%;
   height: auto;
