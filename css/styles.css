@@ -244,6 +244,10 @@ h3 {
   margin: 10px 10px;
 }
 
+.portfolio-block.big-block {
+  font-size: 0.9rem;
+}
+
 .round-border {
   border: 2px solid black;
   border-radius: 5px;
