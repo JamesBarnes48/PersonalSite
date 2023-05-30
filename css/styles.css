@@ -92,7 +92,8 @@ h3 {
   font-family: 'Montserrat', serif;
   font-size: 1.8rem;
   margin: 20px 0;
-  font-weight: bolder;
+  word-break: break-word;
+  font-weight: bold;
 }
 
 .title-subheading {
@@ -133,14 +134,6 @@ h3 {
 }
 
 /* Intro */
-
-.cityscape {
-  display: block;
-  width: 100%;
-  -webkit-mask-image: -webkit-gradient(linear, left 58%, left 28%, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-  position: relative;
-  z-index: 1;
-}
 
 .waterscape {
   display: block;
@@ -289,11 +282,19 @@ h3 {
 
   @media (max-width: 1250px) {
     body {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+
+    .subheading {
+      font-size: 2.2rem;
     }
 
     h1 {
-      font-size: 3rem;
+      font-size: 4.5rem;
     }
 
     h2 {
@@ -310,43 +311,11 @@ h3 {
 
     #nameTitle{
       top: 5%;
-      font-size: 40px;
+      font-size: 4rem;
     }
 
     #professionTitle{
-      top: 14%;
-      font-size: 22px;
+      top: 20%;
+      font-size: 2.5rem;
     }
     }
-
-    @media (max-width: 700px) {
-      body {
-        font-size: 1.3rem;
-      }
-
-      h1 {
-        font-size: 2rem;
-      }
-
-      h2 {
-        font-size: 1.5rem;
-      }
-
-      h3 {
-        font-size: 1.5rem;
-      }
-
-      .title-subheading {
-        font-size: 1rem;
-      }
-
-      #nameTitle{
-        top: 3%;
-        font-size: 35px;
-      }
-  
-      #professionTitle{
-        top: 10%;
-        font-size: 20px;
-      }
-      }
