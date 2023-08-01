@@ -330,7 +330,7 @@ h3 {
     }
 
     h2 {
-      font-size: 2.1rem;
+      font-size: 2.4rem;
     }
 
     h3 {
@@ -364,7 +364,11 @@ h3 {
     }
 
     .stats-child{
-      width: 100%;
+      width: 45%;
+    }
+
+    .stat-name{
+      font-size: 1.6rem;
     }
 
     }
