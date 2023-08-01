@@ -64,6 +64,10 @@ h3 {
   padding: 40px 35px;
 }
 
+.homepage-section{
+  margin: 5% 10% 0 10%;
+}
+
 /* Buttons */
 
 .basic-button {
@@ -166,31 +170,12 @@ h3 {
   margin-right: auto;
 }
 
-/* Profile */
+/*Language List*/
 
-.profile {
-  margin: 5% 10% 0 10%;
-}
-
-/* Skills */
-
-.skills {
-  padding: 30px 0;
-}
-
-.skill-row-text-left {
-  margin: 40px 0;
-  text-align: left;
-}
-
-.skill-row-text-right {
-  margin: 40px 0;
-  text-align: right;
-}
-
-.skill-image {
-  max-width: 80%;
-  max-height: 90%;
+.lang-list {
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  list-style: none;
 }
 
 .languages-heading {
@@ -201,10 +186,40 @@ h3 {
   text-decoration: none;
 }
 
-.lang-list {
-  font-family: 'Montserrat';
+
+/* Stats */
+
+.stats-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+.stats-child{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 30%;
+  padding: 10px 8px;
+  margin: 10px 10px;
+  background-color: whitesmoke;
+  border: 1px solid var(--off-main-hex);
+}
+
+.stat-name{
+  font-size: 1.2rem;
+  color: black;
+}
+
+.stat-metric{
+  color: var(--main-hex);
   font-weight: bolder;
-  list-style: none;
+}
+
+.stat-metric.small{
+  font-size: 1.5rem;
 }
 
 /* Contact Me */
@@ -285,7 +300,7 @@ h3 {
       font-size: 1.5rem;
     }
 
-    .profile {
+    .homepage-section {
       margin: 2% 3% 0 3%;
     }
 
