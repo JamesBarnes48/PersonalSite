@@ -278,15 +278,15 @@ h3 {
 
   @media (max-width: 1250px) {
     body {
-      font-size: 1.3rem;
+      font-size: 1.5rem;
     }
 
     p {
-      font-size: 1.3rem;
+      font-size: 1.5rem;
     }
 
     .profile {
-      margin: 3% 4% 0 4%;
+      margin: 2% 3% 0 3%;
     }
 
     .subheading {
@@ -294,8 +294,8 @@ h3 {
     }
 
     .navbar-toggler-icon{
-      width: 3em;
-      height: 2em;
+      width: 4.5em;
+      height: 3em;
     }
 
     .navbar-brand {
@@ -307,19 +307,23 @@ h3 {
     }
 
     h1 {
-      font-size: 4.5rem;
+      font-size: 4.7rem;
     }
 
     h2 {
-      font-size: 1.7rem;
+      font-size: 1.9rem;
     }
 
     h3 {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
     }
 
     .title-subheading {
-      font-size: 1.5rem;
+      font-size: 1.7rem;
+    }
+
+    .card-header {
+      font-size: 1.8rem;
     }
 
     #nameTitle{
